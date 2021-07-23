@@ -43,8 +43,11 @@ a:hover {
 color: gold !important;
 }
 .card {
+  box-sizing: border-box;
 }
-
+.card-footer {
+  border:none;
+}
 .container {
   padding: 0 16px;
 }
@@ -79,6 +82,20 @@ color: gold !important;
     color:;
 }
 
+table {
+  width: 100%;
+
+}
+table, td {
+  border: 1px  black;
+  padding: 10px;
+}
+
+}
+thead {
+  text-align: ;
+  padding: px;
+}
 
 
 /* Contact Info
